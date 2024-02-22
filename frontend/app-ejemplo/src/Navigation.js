@@ -10,17 +10,6 @@ import Pdf from "./screen/Pdf";
 
 const Tab = createBottomTabNavigator();
 
-//SplashScreen.preventAutoHideAsync()
-// .then((result) =>
-//  console.log(`SplashScreen.preventAutoHideAsync() succeeded: ${result}`)
-// )
-// .catch(console.warn); // No es estrictamente necesario, pero ayuda a capturar errores.
-
-// Cuando estés listo para ocultar la splash screen
-//async function prepareApp() {
-// await Navigation();
-//await SplashScreen.hideAsync();
-//}
 const Navigation = () => {
   return (
     <Tab.Navigator
