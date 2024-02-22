@@ -6,7 +6,7 @@ import ListComponent from "./componentes/list/List";
 import User from "./screen/User";
 import Chat from "./screen/Chat";
 import Pdf from "./screen/Pdf";
-// import * as SplashScreen from "expo-splash-screen";
+
 
 const Tab = createBottomTabNavigator();
 
